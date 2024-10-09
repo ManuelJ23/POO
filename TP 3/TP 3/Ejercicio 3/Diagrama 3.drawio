@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Página-1" id="ilaCyQxifbWc2MhysVDy">
+    <mxGraphModel dx="521" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MpvKKQiWPPkrPA9ORD69-1" value="Impresora" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="20" y="40" width="230" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MpvKKQiWPPkrPA9ORD69-2" value="&lt;&lt; Atributos &gt;&gt;&#xa;&#xa;-_marca: str&#xa;-_modelo: str&#xa;-_estaEncendida : bool = False" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MpvKKQiWPPkrPA9ORD69-1" vertex="1">
+          <mxGeometry y="26" width="230" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="MpvKKQiWPPkrPA9ORD69-3" value="" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=default;" parent="MpvKKQiWPPkrPA9ORD69-1" vertex="1">
+          <mxGeometry y="130" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MpvKKQiWPPkrPA9ORD69-4" value="+__init__(marca:str, modelo:str)&#xa;&#xa;+getMarca(): str&#xa;+getModelo():str&#xa;+getEstaEncendido(): bool&#xa;&#xa;+setMarca( nuevaMarca:str)&#xa;+setModelo( nuevoModelo:str)&#xa;&#xa;&#xa;+encender()&#xa;+apagar()&#xa;+imprimirArchivo(archivo:Archivo):str" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MpvKKQiWPPkrPA9ORD69-1" vertex="1">
+          <mxGeometry y="138" width="230" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="MpvKKQiWPPkrPA9ORD69-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1.007;exitY=0.434;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;fillColor=default;" parent="1" source="MpvKKQiWPPkrPA9ORD69-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpvKKQiWPPkrPA9ORD69-6" value="Archivo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="450" y="50" width="310" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MpvKKQiWPPkrPA9ORD69-7" value="&lt;&lt; Atributos &gt;&gt;&#xa;&#xa;-_titulo: str&#xa;-_cantidadPaginas: int&#xa;-_contenido: str" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MpvKKQiWPPkrPA9ORD69-6" vertex="1">
+          <mxGeometry y="26" width="310" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="MpvKKQiWPPkrPA9ORD69-8" value="" style="line;strokeWidth=1;fillColor=default;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=default;" parent="MpvKKQiWPPkrPA9ORD69-6" vertex="1">
+          <mxGeometry y="110" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MpvKKQiWPPkrPA9ORD69-9" value="+ __init__(titulo: str, cantidadPaginas: int, contenido:str)&#xa;&#xa;+getTitulo(): str&#xa;+getCantidadPaginas(): int&#xa;+getContenido(): str&#xa;&#xa;+setTitulo(nuevoTitulo:str)&#xa;+setCantidadPaginas(nuevaCantidadPaginas:int)&#xa;+setContenido(nuevoContenido:str)" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MpvKKQiWPPkrPA9ORD69-6" vertex="1">
+          <mxGeometry y="118" width="310" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="tJeYnK2lhl4so-rWAFEm-1" value="Lo mejor es no usar ni print() ni input() en los métodos, sino simplemente retornar un tipo de dato" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="240" y="470" width="210" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

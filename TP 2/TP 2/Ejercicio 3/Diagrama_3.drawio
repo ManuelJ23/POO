@@ -1,0 +1,34 @@
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" modified="2024-09-13T22:40:05.611Z" version="22.1.22" etag="npp4leuZkg8D4L4r9Stq" type="embed">
+  <diagram name="Página-1" id="PZASJThlbfpamCoLRvME">
+    <mxGraphModel dx="442" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YJ-1BJ_aiNZD9yLEBllh-1" value="Encomienda" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="40" width="370" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ-1BJ_aiNZD9yLEBllh-2" value="&amp;lt;&amp;lt; Atributos &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- _remitente : str&lt;/div&gt;&lt;div&gt;- _destinatario : str&lt;/div&gt;&lt;div&gt;- _peso : float&lt;/div&gt;&lt;div&gt;- _dimensiones : list&lt;/div&gt;&lt;div&gt;- _costo : float&lt;/div&gt;&lt;div&gt;- _estadosEnvio : list&lt;/div&gt;&lt;div&gt;- _estado : str = &quot;Pendiente de despacho&quot;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YJ-1BJ_aiNZD9yLEBllh-1" vertex="1">
+          <mxGeometry y="30" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ-1BJ_aiNZD9yLEBllh-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="YJ-1BJ_aiNZD9yLEBllh-1" vertex="1">
+          <mxGeometry y="170" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ-1BJ_aiNZD9yLEBllh-4" value="&amp;lt;&amp;lt; Constructor &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ __init__(remitente : str, destinatario : str, peso : float, dimensiones : list, costo : float)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Comandos de Consulta &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;+ getRemitente() : str&lt;/div&gt;&lt;div&gt;+ getDestinatario() : str&lt;/div&gt;&lt;div&gt;+ getPeso() : float&lt;/div&gt;&lt;div&gt;+ getDimensiones : list&lt;/div&gt;&lt;div&gt;+ getCosto : float&lt;/div&gt;&lt;div&gt;+ getEstadosEnvio : str&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Comandos de modificación &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setRemitente(nuevoRemitente : str)&lt;/div&gt;&lt;div&gt;+ setDestinatario(nuevoDestinatario : str)&lt;/div&gt;&lt;div&gt;+ setPeso(nuevoPeso : str)&lt;/div&gt;&lt;div&gt;+ setDimensiones(nuevasDimensiones : list)&lt;/div&gt;&lt;div&gt;+ setCosto(nuevoCosto : float)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Comandos Operacionales &amp;gt;&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ actualizarEstado(nuevoEstado : str)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="YJ-1BJ_aiNZD9yLEBllh-1" vertex="1">
+          <mxGeometry y="178" width="370" height="382" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ-1BJ_aiNZD9yLEBllh-5" value="El valor por defecto del estado de la encomienda al crear una nueva instancia es &quot;Pendiente de despacho&quot;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="540" y="90" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ-1BJ_aiNZD9yLEBllh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.82;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YJ-1BJ_aiNZD9yLEBllh-5" target="YJ-1BJ_aiNZD9yLEBllh-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ-1BJ_aiNZD9yLEBllh-7" value="Actualiza el estado de la encomienda a uno que esté en las opciones:&lt;div&gt;&lt;span class=&quot;hljs-string&quot;&gt;&quot;Pendiente de despacho&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Despachado&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;En viaje&quot;&lt;/span&gt;, &lt;br&gt;                           &lt;span class=&quot;hljs-string&quot;&gt;&quot;Visita a domicilio&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Recibido&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Rechazado&quot;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="520" y="450" width="310" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YJ-1BJ_aiNZD9yLEBllh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.01;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YJ-1BJ_aiNZD9yLEBllh-7" target="YJ-1BJ_aiNZD9yLEBllh-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

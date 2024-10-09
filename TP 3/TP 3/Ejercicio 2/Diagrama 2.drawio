@@ -1,0 +1,78 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8" pages="2">
+  <diagram name="inciso a" id="aPFbauU9s5RE_rniLczh">
+    <mxGraphModel dx="524" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q-PwHv0v0kUvqrNEGWBk-1" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="421" width="230" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-PwHv0v0kUvqrNEGWBk-2" value="&lt;div&gt;&amp;lt;&amp;lt; Atributos &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;- _nombreCliente : str&lt;div&gt;- _listaCompras : list&lt;/div&gt;&lt;div&gt;- _fiado : bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q-PwHv0v0kUvqrNEGWBk-1">
+          <mxGeometry y="26" width="230" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-PwHv0v0kUvqrNEGWBk-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Q-PwHv0v0kUvqrNEGWBk-1">
+          <mxGeometry y="120" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-PwHv0v0kUvqrNEGWBk-4" value="&amp;lt;&amp;lt; Constructor &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ __init__(self, nombreCliente : str, listaCompras : list, fiado : bool)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de consulta &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getNombreCliente() : str&lt;/div&gt;&lt;div&gt;+ getListaCompras() : list&lt;/div&gt;&lt;div&gt;+ getFiado() : bool&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de modificación &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setNombreCliente(nuevoNombre : str)&lt;/div&gt;&lt;div&gt;+ setListaCompras (nuevoProducto : str)&lt;/div&gt;&lt;div&gt;+ setFiado (nuevoEstado : bool)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q-PwHv0v0kUvqrNEGWBk-1">
+          <mxGeometry y="128" width="230" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-PwHv0v0kUvqrNEGWBk-5" value="Comercio" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="410" width="230" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-PwHv0v0kUvqrNEGWBk-6" value="&lt;div&gt;&amp;lt;&amp;lt; Atributos &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;- _nombreComercio : str&lt;div&gt;- _direccion : str&lt;/div&gt;&lt;div&gt;- _rubro : str&lt;/div&gt;&lt;div&gt;- _listaClientes : list &amp;lt;Cliente&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q-PwHv0v0kUvqrNEGWBk-5">
+          <mxGeometry y="26" width="230" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-PwHv0v0kUvqrNEGWBk-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Q-PwHv0v0kUvqrNEGWBk-5">
+          <mxGeometry y="130" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-PwHv0v0kUvqrNEGWBk-8" value="&amp;lt;&amp;lt; Constructor &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ __init__(self, nombreComercio : str, direccion : str, rubro : str, listaClientes : list)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de consulta &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getNombreComercio() : str&lt;/div&gt;&lt;div&gt;+ getDireccion() : str&lt;/div&gt;&lt;div&gt;+ getRubro() : str&lt;/div&gt;&lt;div&gt;+ getListaClientes() : list&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de modificación &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setNombreComercio(nuevoNombre : str)&lt;/div&gt;&lt;div&gt;+ setDireccion(nuevaDireccion : str)&lt;/div&gt;&lt;div&gt;+ setRubro(nuevoRubro : str)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de operación &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;+ agregarCliente (nuevoCliente : Cliente)&lt;/div&gt;&lt;div&gt;+ despacharCliente(cliente : Cliente)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q-PwHv0v0kUvqrNEGWBk-5">
+          <mxGeometry y="138" width="230" height="362" as="geometry" />
+        </mxCell>
+        <mxCell id="IRzQqBdBgdxBTYz1_FYi-1" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.031;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.92;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Q-PwHv0v0kUvqrNEGWBk-4" target="Q-PwHv0v0kUvqrNEGWBk-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="560" as="sourcePoint" />
+            <mxPoint x="430" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="693G98NqkIxAGAJRugXz" name="inciso b">
+    <mxGraphModel dx="524" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-qITUyi_F_6fCitwYmtL-1" value="Tema" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="190" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-qITUyi_F_6fCitwYmtL-2" value="&amp;lt;&amp;lt; Atributos &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- _nombre : str&lt;/div&gt;&lt;div&gt;- _duracion : str&lt;/div&gt;&lt;div&gt;- _letra : str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-qITUyi_F_6fCitwYmtL-1">
+          <mxGeometry y="26" width="190" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="-qITUyi_F_6fCitwYmtL-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="-qITUyi_F_6fCitwYmtL-1">
+          <mxGeometry y="120" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-qITUyi_F_6fCitwYmtL-4" value="&amp;lt;&amp;lt; Constructor &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ __init__(self, nombre : str, duracion : str, letra : str)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de consulta &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getNombre() : str&lt;/div&gt;&lt;div&gt;+ getDuracion() : str&lt;/div&gt;&lt;div&gt;+ getLetra() : str&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de modificación &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setNombre(nuevoNombre : str)&lt;/div&gt;&lt;div&gt;+ setDuracion(nuevaDuracion : str)&lt;/div&gt;&lt;div&gt;+ setLetra(nuevaLetra : str)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-qITUyi_F_6fCitwYmtL-1">
+          <mxGeometry y="128" width="190" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="-qITUyi_F_6fCitwYmtL-5" value="AlbumMusical" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="210" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="eFt8nz2GvBEg0XChJVV--1" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=-0.017;exitY=0.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="-qITUyi_F_6fCitwYmtL-5" source="-qITUyi_F_6fCitwYmtL-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="20" as="sourcePoint" />
+            <mxPoint x="210" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qITUyi_F_6fCitwYmtL-6" value="&amp;lt;&amp;lt; Atributos &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- _nombreAlbum: str&lt;/div&gt;&lt;div&gt;- _temas : list &amp;lt;Tema&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-qITUyi_F_6fCitwYmtL-5">
+          <mxGeometry y="26" width="210" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-qITUyi_F_6fCitwYmtL-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="-qITUyi_F_6fCitwYmtL-5">
+          <mxGeometry y="110" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-qITUyi_F_6fCitwYmtL-8" value="&amp;lt;&amp;lt; Constructor &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ __init__(self, nombreAlbum : str)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de consulta &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getNombreAlbum() : str&lt;/div&gt;&lt;div&gt;+ getTemas() : list &amp;lt;Tema&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de modificación &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setNombreAlbum(nuevoNombre : str)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de operación &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ agregarTema(nombre : str, duracion : str, letra : str)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-qITUyi_F_6fCitwYmtL-5">
+          <mxGeometry y="118" width="210" height="292" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
