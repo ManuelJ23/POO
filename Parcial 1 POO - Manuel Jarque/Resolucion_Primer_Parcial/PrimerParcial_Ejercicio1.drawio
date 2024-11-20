@@ -1,0 +1,31 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="V7pkrqKFxC98HS1DnASN">
+    <mxGraphModel dx="1348" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1AWU5QtENHbguhs67-Vd-2" value="&lt;b&gt;Alumno: Manuel Jarque&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1AWU5QtENHbguhs67-Vd-3" value="CuentaUsuario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="180" width="286" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="1AWU5QtENHbguhs67-Vd-4" value="&amp;lt;&amp;lt; Atributos &amp;gt;&amp;gt;&lt;div&gt;- _nombreUsuario : str&lt;/div&gt;&lt;div&gt;- _email : str&lt;/div&gt;&lt;div&gt;- _contrasenia : int&lt;/div&gt;&lt;div&gt;- _estadoSesion : bool = False&lt;/div&gt;&lt;div&gt;- _ favoritos : str[ ] = [ ]&lt;/div&gt;&lt;div&gt;- registroOperaciones : str[ ] = [ ]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1AWU5QtENHbguhs67-Vd-3">
+          <mxGeometry y="26" width="286" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="1AWU5QtENHbguhs67-Vd-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1AWU5QtENHbguhs67-Vd-3">
+          <mxGeometry y="140" width="286" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1AWU5QtENHbguhs67-Vd-6" value="&amp;lt;&amp;lt; Constructor &amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ __init__(nombreUsuario : str, email : str, contraseña : int)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de consulta &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getNombreUsuario() : str&lt;/div&gt;&lt;div&gt;+ getEmail() : str&lt;/div&gt;&lt;div&gt;+ getContrasenia : int&lt;/div&gt;&lt;div&gt;+ getEstadoSesion() : bool&lt;/div&gt;&lt;div&gt;+ getFavoritos() : str[ ]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos de modificación &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp; setNombreUsuario(nuevoNombre : str)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; Métodos operacionales &amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;+ verificarEmailValido()&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ modificarEmail(nuevoEmail : str)&lt;/div&gt;&lt;div&gt;+ verFavoritos() : str[ ]&lt;/div&gt;&lt;div&gt;+ cambiarContrasenia(contraseniaActual : int, nuevaContrasenia : int)&lt;/div&gt;&lt;div&gt;+ consultarDatos() : dict&lt;/div&gt;&lt;div&gt;+ mostrarRegistroOperaciones() str&lt;/div&gt;&lt;div&gt;+ enviarMensaje(emailDestino : str, mensaje : str)&lt;/div&gt;&lt;div&gt;+ iniciarSesion(email : str, contrasenia : int)&lt;/div&gt;&lt;div&gt;+ cerrarSesion(nombreUsuario)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Método Adicional&lt;/div&gt;&lt;div&gt;+ agregarAFavoritos(email)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1AWU5QtENHbguhs67-Vd-3">
+          <mxGeometry y="148" width="286" height="492" as="geometry" />
+        </mxCell>
+        <mxCell id="1AWU5QtENHbguhs67-Vd-7" value="Permite agregar a una lista de favoritos un email, para luego poder consultarla, como una especie de lista de contactos." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="630" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1AWU5QtENHbguhs67-Vd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.898;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1AWU5QtENHbguhs67-Vd-7" target="1AWU5QtENHbguhs67-Vd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
